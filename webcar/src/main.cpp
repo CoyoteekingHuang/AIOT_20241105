@@ -166,7 +166,7 @@ document.getElementById("mainTable").addEventListener("touchend", function(event
 </html>
 
 
-)HTMLHOMEPAGE"
+)HTMLHOMEPAGE";
 
 void setuppinmodes(){
   ledcSetup(pwmspeedchannel, pwmfreq, pwmresolution);
@@ -296,7 +296,8 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  wscarinput.cleanupClient();
+ // wscarinput.cleanupClients();
+ wscarinput.cleanupClients();
 
 }
 
