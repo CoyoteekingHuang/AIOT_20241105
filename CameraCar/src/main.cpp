@@ -4,7 +4,7 @@
 #include <sstream>
 #include <ESPAsyncWebServer.h>
 #include <AsyncTCP.h>
-
+#include "esp_camera.h"
 //#include "soc/soc.h"   //停止重開機
 //#include "soc/rtc_cntl_reg.h" //停止重開機
 
